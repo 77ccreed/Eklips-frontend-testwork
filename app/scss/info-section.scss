@@ -1,0 +1,206 @@
+/*
+Info section HTML
+
+  <!-- Info section, that contains 3 cards with title and two paragraphs and a button -->
+      <section class="info">
+        <div class="info-content">
+          <div class="info-card">
+            <h2 class="info-card-title">Press releases</h2>
+            <div class="info-card-item">
+            <p class="info-card-date">
+              13. December 2021 <span class="info-card-date-text">Regulatory</span>
+            </p>
+            <p class="info-card-text">Praesent eu velit ac diam mollis elementum sit amet ac felis</p>
+            </div>
+            <div class="info-card-item">
+            <p class="info-card-date">
+              13. December 2021 <span class="info-card-date-text">Regulatory</span>
+            </p>
+            <p class="info-card-text">Praesent eu velit ac diam mollis elementum sit amet ac felis</p>
+            </div>
+            <button class="info-btn">All press releases 
+              <img src="img/SVG/arrow.svg" alt="arrow" class="arrow">
+            </button>
+          </div>
+          <div class="info-card">
+            <h2 class="info-card-title">Financial reports</h2>
+             <div class="info-card-item">
+            <p class="info-card-date">13. December 2021</p>
+            <p class="info-card-text">Praesent eu velit ac diam mollis elementum sit amet ac felis</p>
+            </div>
+            <div class="info-card-item">
+            <p class="info-card-date">13. December 2021</p>
+            <p class="info-card-text">Praesent eu velit ac diam mollis elementum sit amet ac felis</p>
+            </div>
+            <button class="info-btn">All financial reports
+              <img src="img/SVG/arrow.svg" alt="arrow" class="arrow">
+            </button>
+          </div>
+          <div class="info-card">
+            <h2 class="info-card-title">Calendar</h2>
+            <div class="info-card-calendar-item">
+            <p class="info-card-text">Praesent eu velit ac diam mollis elementum sit amet ac felis</p>
+            <p class="info-card-add-to-calendar">
+              <img src="img/SVG/calendar.svg" alt="calendar" class="calendar-icon">
+              Add to calendar
+            </p>
+            </div>
+            <div class="info-card-calendar-item">
+            <p class="info-card-text">Praesent eu velit ac diam mollis elementum sit amet ac felis</p>
+            <p class="info-card-add-to-calendar">
+              <img src="img/SVG/calendar.svg" alt="calendar" class="calendar-icon">
+              Add to calendar
+            </p>
+            </div>
+            <button class="info-btn">All events 
+              <img src="img/SVG/arrow.svg" alt="arrow" class="arrow"></button>
+          </div>
+        </div>
+      </section>
+*/
+
+.info {
+  padding: 2rem 0;
+
+  & .info-content {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1.7rem;
+    max-width: $container-max-width;
+    margin: 0 auto;
+
+    & .info-card {
+      background-color: $color-white;
+      padding: 2rem 0 2rem 0;
+      margin: 0 1.25rem;
+      border-radius: $border-radius-lg;
+      box-shadow: 0 4px 20px -4px rgba(0, 0, 0, 0.15);
+      height: 26rem;
+      position: relative;
+      z-index: 1;
+
+      & .info-card-title {
+        font-size: $font-size-xxl;
+        font-weight: $font-weight-bold;
+        margin-bottom: 1.5rem;
+        font-family: $font-family-secondary;
+        padding: 0 1.375rem;
+      }
+
+      & .info-card-item {
+        margin-bottom: 1.5rem;
+
+        & .info-card-date {
+          font-size: $font-size-sm;
+          font-weight: 700;
+          color: $color-black-text;
+          margin-bottom: 0.5rem;
+          padding: 0 1.5rem;
+        }
+
+        & .info-card-date-text {
+          font-size: 0.875rem;
+          font-weight: $font-weight-normal;
+          color: $color-green;
+        }
+
+        & .info-card-text {
+          font-size: $font-size-xl;
+          font-weight: $font-weight-bold;
+          color: $color-black-text;
+          margin: .4rem 0 2rem 0;
+          padding: 0 3rem 0 1.5rem;
+        }
+      }
+
+      & .info-btn {
+        display: flex;
+        justify-content: right;
+        align-items: center;
+        background-color: $color-white;
+        color: $color-green;
+        font-size: 0.875rem;
+        font-weight: 700;
+        padding: 0 0.75rem;
+        // margin-right: 0.5rem;
+        cursor: pointer;
+        // margin-left: auto;
+        border: none;
+        margin: 1.5rem .5rem 0 auto;
+
+        position: absolute;
+        bottom: 2rem;
+        right: .75rem;
+
+        & .arrow {
+          margin-left: 0.5rem;
+        }
+      }
+
+      & .info-card-calendar-item {
+        display: grid;
+        grid-template-columns: 4.563rem 1fr;
+        grid-template-rows: 5.375rem 1fr;
+        margin: 0 0 .9rem 0;
+        padding: 0;
+
+        & .info-card-calendar-date {
+          grid-column: 1 / 2;
+          grid-row: 1 / 2;
+          font-size: $font-size-md;
+          font-weight: 700;
+          color: $color-black;
+          margin-bottom: 0.5rem;
+          background-color: $color-light-green;
+          padding: 1.25rem .8rem .75rem 1.125rem;
+          border-radius: 0 .875rem .875rem 0;
+          line-height: 16px;
+          //margin: .4rem 0 .9rem 0;
+
+          & .info-card-calendar-date-day {
+            font-size: $font-size-xxxl;
+          }
+        }
+
+        & .info-card-text {
+          grid-column: 2 / 3;
+          grid-row: 1 / 2;
+          align-self: start;
+          font-size: $font-size-xl;
+          font-weight: $font-weight-bold;
+          color: $color-black-text;
+          margin: .4rem 0;
+          padding-right: 2rem;
+          padding: 0 1.5rem;
+        }
+
+        & .info-card-add-to-calendar {
+          grid-column: 2 / 3;
+          grid-row: 2 / 3;
+          display: flex;
+          align-items: center;
+
+          color: $color-green;
+          font-size: $font-size-md;
+          font-weight: $font-weight-normal;
+          line-height: 24px;
+          padding: 0 1.5rem 0 1.5rem;
+          border: none;
+          cursor: pointer;
+
+          & .calendar-icon {
+            margin-right: 0.5rem;
+          }
+        }
+      }
+    }
+
+    @media (min-width: $breakpoint-desktop) {
+      grid-template-columns: 1fr 1fr 1fr;
+
+      & .info-card {
+        margin: 0;
+      }
+    }
+  }
+}

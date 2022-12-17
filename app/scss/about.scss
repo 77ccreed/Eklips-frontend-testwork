@@ -1,0 +1,57 @@
+.about {
+  padding: 2rem 0;
+
+  .about-content {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    margin: 0 1.25rem;
+
+    @media (min-width: $breakpoint-desktop) {
+      flex-direction: row;
+      justify-content: space-between;
+      max-width: $container-max-width;
+      margin: 2rem auto;
+    }
+
+    .about-text-card {
+      width: 100%;
+      margin: 1.25rem auto;
+
+      @media (min-width: $breakpoint-desktop) {
+        width: 50%;
+        margin: 0;
+        padding: 0 1.25rem;
+      }
+
+      .about-title {
+        font-family: $font-family-secondary;
+        font-size: $font-size-xxxl;
+        font-weight: $font-weight-bold;
+        color: $color-black;
+        margin-bottom: 1.25rem;
+
+      }
+
+      .about-text {
+        font-size: $font-size-md;
+        font-weight: $font-weight-normal;
+        color: $color-black;
+        margin-bottom: 2rem;
+      }
+    }
+
+    .about-image-card {
+      width: 100%;
+
+      @media (min-width: $breakpoint-desktop) {
+        width: 50%;
+      }
+
+      .about-image {
+        width: 100%;
+        border-radius: $border-radius-md;
+      }
+    }
+  }
+}

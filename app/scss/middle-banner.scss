@@ -1,0 +1,53 @@
+.middle-banner {
+  background-image: url('../img/banner-img-2.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 563px;
+  width: 100%;
+  position: relative;
+
+  & .middle-banner-content {
+    background-color: $color-white;
+    margin: 0 1.25rem;
+    padding: 2.5rem 1.25rem 2rem 1.25rem;
+    bottom: 2rem;
+    position: absolute;
+    border-radius: 0.875rem;
+
+    & .middle-banner-title {
+      font-size: $font-size-xxxl;
+      font-weight: 700;
+      color: $color-black;
+      text-align: left;
+      line-height: 34px;
+      padding-bottom: 1rem;
+    }
+
+    & .middle-banner-text {
+      font-size: $font-size-md;
+      font-weight: 400;
+      color: $color-black;
+      text-align: left;
+      line-height: 24px;
+      padding: 0 2rem 2rem 0;
+    }
+  }
+
+  @media (min-width: $breakpoint-desktop) {
+    height: 382px;
+
+    & .middle-banner-container {
+      max-width: $container-max-width;
+      margin: auto;
+      padding: 3.75rem 0;
+
+      & .middle-banner-content {
+        bottom: unset;
+        width: calc($container-max-width / 2);
+        height: calc(100% - 120px);
+        margin: auto 0;
+      }
+    }
+  }
+}

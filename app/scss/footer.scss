@@ -6,23 +6,23 @@ footer {
   }
 
   & h3 {
+    font-family: $font-family-main;
+    font-size: $font-size-md;
     font-size: $font-size-md;
     font-weight: $font-weight-bold;
+    font-weight: $font-weight-normal;
+    line-height: $line-height-sm;
     margin-bottom: .5rem;
     text-transform: uppercase;
-    font-family: $font-family-main;
-    font-weight: $font-weight-normal;
-    font-size: $font-size-md;
-    line-height: $line-height-sm;
   }
 
   & p {
+    font-family: $font-family-main;
     font-size: $font-size-sm;
+    font-size: $font-size-sm;
+    font-weight: $font-weight-normal;
     font-weight: $font-weight-normal;
     line-height: $line-height-sm;
-    font-family: $font-family-main;
-    font-weight: $font-weight-normal;
-    font-size: $font-size-sm;
     line-height: $line-height-sm;
   }
 
@@ -35,12 +35,11 @@ footer {
 
       & a {
         color: $color-white;
-        list-style-type: none;
-        text-decoration: none;
+        font-family: $font-family-main;
         font-size: $font-size-sm;
         font-weight: $font-weight-normal;
         line-height: $line-height-sm;
-        font-family: $font-family-main;
+        list-style-type: none;
         text-decoration: none;
       }
     }
@@ -54,8 +53,8 @@ footer {
     @media (min-width: $breakpoint-desktop) {
       display: grid;
       grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-      max-width: $container-max-width;
       margin: 0 auto;
+      max-width: $container-max-width;
       padding: 2.5rem 0;
 
       & .footer-nav-item {
@@ -105,10 +104,10 @@ footer {
 
       & .footer-contacts-list {
         display: grid;
+        font-size: $font-size-sm;
         grid-template-columns: 1fr;
         grid-template-rows: repeat(5, auto);
         padding: 0;
-        font-size: $font-size-sm;
 
         & .footer-contacts-list-item {
 
@@ -123,7 +122,6 @@ footer {
         }
       }
     }
-
   }
 
   & .footer-bottom {
@@ -133,9 +131,9 @@ footer {
       display: grid;
       grid-template-columns: 1fr 1fr 1fr;
       justify-items: center;
-      text-align: center;
-      max-width: $container-max-width;
       margin: 0 auto;
+      max-width: $container-max-width;
+      text-align: center;
 
       & .item-a {
         grid-column: 2 / 3;
@@ -155,7 +153,6 @@ footer {
 
     & .footer-bottom-item {
       margin: 1rem .5rem;
-
 
       & .footer-bottom-list-company {
         display: grid;

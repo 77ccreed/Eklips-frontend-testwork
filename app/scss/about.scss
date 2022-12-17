@@ -2,41 +2,41 @@
   padding: 2rem 0;
 
   .about-content {
+    align-items: center;
     display: flex;
     flex-direction: column-reverse;
-    align-items: center;
     margin: 0 1.25rem;
 
     @media (min-width: $breakpoint-desktop) {
       flex-direction: row;
       justify-content: space-between;
-      max-width: $container-max-width;
       margin: 2rem auto;
+      max-width: $container-max-width;
     }
 
     .about-text-card {
-      width: 100%;
       margin: 1.25rem auto;
+      width: 100%;
 
       @media (min-width: $breakpoint-desktop) {
-        width: 50%;
         margin: 0;
         padding: 0 1.25rem;
+        width: 50%;
       }
 
       .about-title {
+        color: $color-black;
         font-family: $font-family-secondary;
         font-size: $font-size-xxxl;
         font-weight: $font-weight-bold;
-        color: $color-black;
         margin-bottom: 1.25rem;
 
       }
 
       .about-text {
+        color: $color-black;
         font-size: $font-size-md;
         font-weight: $font-weight-normal;
-        color: $color-black;
         margin-bottom: 2rem;
       }
     }
@@ -49,8 +49,8 @@
       }
 
       .about-image {
-        width: 100%;
         border-radius: $border-radius-md;
+        width: 100%;
       }
     }
   }

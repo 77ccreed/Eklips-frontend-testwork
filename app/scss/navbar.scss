@@ -1,760 +1,198 @@
- /*<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Frontend test</title>
-  <link rel="stylesheet" href="dist/style.css">
-</head>
-<body>
- <header class="header">
-      <div class="nav-banner-header">
-        <div class="nav-banner-language">
-          <button class="nav-banner-btn btn-eng">English</button>
-          <button class="nav-banner-btn btn-swe">Swenska</button>
-        </div>
-       <p class="nav-banner-text">LOREM 33.30 SEK +0.33 %</p>
-      </div>
-
-      <nav id="navbar">  
-
-          <div class="nav-logo-container">
-            <a href="#" class="nav-logo">
-              <img src="/img/SVG/nav-logo.svg" alt="Logo" class="nav-logo-img">
-            </a>
-          </div>
-
-        <ul class="nav-menu">
-          
-          <li class="nav-banner">
-            <div class="nav-banner-language">
-             <button class="nav-banner-btn btn-eng">English</button>
-             <button class="nav-banner-btn btn-swe">Swenska</button>
-            </div>
-            <p class="nav-banner-text">LOREM 33.30 SEK +0.33 %</p>
-          </li>
-
-          <li class="search-container">
-            <input class="search-input" type="text" placeholder="Search">
-          </li>
-
-          <li class="nav-item">
-            <a href="" class="nav-link" aria-haspopup="menu" role="button">About us</a>
-            <ul>
-              <li class="subnav-content">
-                <a href="" class="subnav-content-link">Lorem ipsum</a>
-                <a href="" class="subnav-content-link">Lorem ipsum</a>
-                <a href="" class="subnav-content-link">Lorem ipsum</a>
-                <a href="" class="subnav-content-link">Lorem ipsum</a>
-                <a href="" class="subnav-content-link">Lorem ipsum</a>   
-              </li>
-            </ul>
-          </li>
-          <li class="nav-item">
-            <a href="" class="nav-link" aria-haspopup="menu" role="button">Sustainability</a>
-            <ul>
-              <li class="subnav-content">
-                <a href="" class="subnav-content-link">Lorem ipsum</a>
-                <a href="" class="subnav-content-link">Lorem ipsum</a>
-                <a href="" class="subnav-content-link">Lorem ipsum</a>
-                <a href="" class="subnav-content-link">Lorem ipsum</a>
-                <a href="" class="subnav-content-link">Lorem ipsum</a>
-              </li>
-            </ul>
-          </li>
-          <li class="nav-item">
-            <a href="" class="nav-link" aria-haspopup="menu"  role="button">Investors</a>
-            <ul>
-              <li class="subnav-content">
-                <a href="" class="subnav-content-link">Lorem ipsum</a>
-                <a href="" class="subnav-content-link">Lorem ipsum</a>
-                <a href="" class="subnav-content-link">Lorem ipsum</a>
-                <a href="" class="subnav-content-link">Lorem ipsum</a>
-                <a href="" class="subnav-content-link">Lorem ipsum</a>
-                
-              </li>
-            </ul>
-          </li>
-          <li class="nav-item">
-            <a href="" class="nav-link" aria-haspopup="menu" role="button">Corporate governance</a>
-            <ul>
-              <li class="subnav-content">
-                <a href="" class="subnav-content-link">Lorem ipsum</a>
-                <a href="" class="subnav-content-link">Lorem ipsum</a>
-                <a href="" class="subnav-content-link">Lorem ipsum</a>
-                <a href="" class="subnav-content-link">Lorem ipsum</a>
-                <a href="" class="subnav-content-link">Lorem ipsum</a>
-              </li>
-            </ul>
-          </li>
-          <li class="nav-item">
-            <a href="" class="nav-link" aria-haspopup="menu" role="button">Financial calendar</a>
-            <ul>
-              <li class="subnav-content">
-                <a href="" class="subnav-content-link">Lorem ipsum</a>
-                <a href="" class="subnav-content-link">Lorem ipsum</a>
-                <a href="" class="subnav-content-link">Lorem ipsum</a>
-                <a href="" class="subnav-content-link">Lorem ipsum</a>
-                <a href="" class="subnav-content-link">Lorem ipsum</a>
-              </li>
-            </ul>
-          </li>
-          <li class="nav-item">
-            <a href="" class="nav-link" aria-haspopup="menu" role="button">Press and media</a>
-            <ul>
-              <li class="subnav-content">
-                <a href="" class="subnav-content-link">Lorem ipsum</a>
-                <a href="" class="subnav-content-link">Lorem ipsum</a>
-                <a href="" class="subnav-content-link">Lorem ipsum</a>
-                <a href="" class="subnav-content-link">Lorem ipsum</a>
-                <a href="" class="subnav-content-link">Lorem ipsum</a>
-              </li>
-            </ul>
-          </li>
-          <li class="nav-item">
-            <a href="" class="nav-link" aria-haspopup="menu" role="button">Careers</a>
-            <ul>
-              <li class="subnav-content">
-                <a href="" class="subnav-content-link">Lorem ipsum</a>
-                <a href="" class="subnav-content-link">Lorem ipsum</a>
-                <a href="" class="subnav-content-link">Lorem ipsum</a>
-                <a href="" class="subnav-content-link">Lorem ipsum</a>
-                <a href="" class="subnav-content-link">Lorem ipsum</a>
-              </li>
-            </ul>
-          </li>
-        </ul>
-        <div class="nav-icons">
-        <div class="search" role="button" aria-label="search">
-          <img src="img/SVG/search.svg" alt="search" class="search-icon">
-        </div>
-        <div class="menu-container" role="button" aria-label="menu">
-          <div class="hamburger">
-          <span class="bar" aria-hidden="true"></span>
-          <span class="bar" aria-hidden="true"></span>
-          <span class="bar" aria-hidden="true"></span>
-          </div>
-          <p>
-            Menu
-          </p>
-        </div>
-       </div>
-      </nav>
-    </header>
-
-    <!-- Hero insaid main -->
-    <main class="main">
-     <section class="hero">
-        <div class="hero-content" role="img" aria-label="Hero image">
-          <h1 class="hero-title">Lorem ipsum dolor sit amet</h1>
-          <button type="button" class="btn">Lorem ipsum</button>
-        </div>
-      </section>
-
-      <!-- Info section, that contains 3 cards with title and two paragraphs and a button -->
-      <section class="info">
-        <div class="info-content">
-          <div class="info-card">
-            <h2 class="info-card-title">Press releases</h2>
-            <div class="info-card-item">
-            <p class="info-card-date">
-              13. December 2021 <span class="info-card-date-text">Regulatory</span>
-            </p>
-            <p class="info-card-text">Praesent eu velit ac diam mollis elementum sit amet ac felis</p>
-            </div>
-            <div class="info-card-item">
-            <p class="info-card-date">
-              13. December 2021 <span class="info-card-date-text">Regulatory</span>
-            </p>
-            <p class="info-card-text">Praesent eu velit ac diam mollis elementum sit amet ac felis</p>
-            </div>
-            <button type="button" class="info-btn">All press releases 
-              <img src="img/SVG/arrow.svg" alt="arrow" class="arrow">
-            </button>
-          </div>
-          <div class="info-card">
-            <h2 class="info-card-title">Financial reports</h2>
-             <div class="info-card-item">
-            <p class="info-card-date">13. December 2021</p>
-            <p class="info-card-text">Praesent eu velit ac diam mollis elementum sit amet ac felis</p>
-            </div>
-            <div class="info-card-item">
-            <p class="info-card-date">13. December 2021</p>
-            <p class="info-card-text">Praesent eu velit ac diam mollis elementum sit amet ac felis</p>
-            </div>
-            <button type="button" class="info-btn">All financial reports
-              <img src="img/SVG/arrow.svg" alt="arrow" class="arrow">
-            </button>
-          </div>
-          <div class="info-card">
-            <h2 class="info-card-title">Calendar</h2>
-            <div class="info-card-calendar-item">
-            <p class="info-card-calendar-date">
-              <span class="info-card-calendar-date-day">20</span><br/>AUG 2022
-           </p>  
-            <p class="info-card-text">Praesent eu velit ac diam mollis elementum sit amet ac felis</p>
-            <p class="info-card-add-to-calendar">
-              <img src="img/SVG/calendar.svg" alt="calendar" class="calendar-icon">
-              Add to calendar
-            </p>
-            </div>
-            <div class="info-card-calendar-item">
-              <p class="info-card-calendar-date">
-              <span class="info-card-calendar-date-day">30</span><br/>SEP 2022
-           </p>
-            <p class="info-card-text">Praesent eu velit ac diam mollis elementum sit amet ac felis</p>
-            <p class="info-card-add-to-calendar">
-              <img src="img/SVG/calendar.svg" alt="calendar" class="calendar-icon">
-              Add to calendar
-            </p>
-            </div>
-            <button type="button" class="info-btn">All events 
-              <img src="img/SVG/arrow.svg" alt="arrow" class="arrow"></button>
-          </div>
-        </div>
-      </section>
-
-      <!-- Section with 3 cards title, text and button.
-      Each card has a different background image. 
-      The background image is set in the css file  
-    -->
- 
-
-      <section class="image-info">
-        <div class="image-info-content">
-          <div class="info-image-card info-image-card-1" role="img" aria-label="Image card 1">
-            <h3 class="info-card-title">Lorem ipsum</h3>
-            <p class="info-card-text">Lorem ipsum dolor sit</p>
-            <button type="button" class="info-btn">
-              <img src="img/SVG/arrow-white.svg" alt="arrow" class="arrow">
-            </button>
-          </div>
-          <div class="info-image-card info-image-card-2" role="img" aria-label="Image card 2">
-            <h3 class="info-card-title">Lorem ipsum</h3>
-            <p class="info-card-text">Lorem ipsum dolor sit</p>
-            <button type="button" class="info-btn">
-              <img src="img/SVG/arrow-white.svg" alt="arrow" class="arrow">
-            </button>
-          </div>
-          <div class="info-image-card info-image-card-3" role="img" aria-label="Image card 3">
-            <h3 class="info-card-title">Lorem ipsum</h3>
-            <p class="info-card-text">Lorem ipsum dolor sit</p>
-            <button type="button" class="info-btn">
-              <img src="img/SVG/arrow-white.svg" alt="arrow" class="arrow">
-            </button>
-          </div>
-        </div>
-      </section>
-
-
-      <!-- Middle banner section.
-      Full width image with title, text and button -->
-       
-      <section class="middle-banner" role="img" aria-label="Middle banner">
-        <div class="middle-banner-container">     
-        <div class="middle-banner-content">
-          <h2 class="middle-banner-title">Lorem ipsum dolor</h2>
-          <p class="middle-banner-text">Vestibulum sit amet augue mi. Praesent felis nibh, porttitor vitae ultricies sed, sodales sit amet nunc. Aliquam eu faucibus felis, eget pretium dolor. Praesent et dolor augue. </p>
-          <button type="button" class="btn">Aliquam eu</button>
-        </div>
-        </div>
-      </section>
-
-
-
-      <!-- Section with text card and image card -->
-
-
-      <section class="about">
-        <div class="about-content">
-          <div class="about-text-card">
-            <h2 class="about-title">Lorem ipsum dolor</h2>
-            <p class="about-text">
-              Vestibulum sit amet augue mi. Praesent felis nibh, porttitor vitae ultricies sed, sodales sit amet nunc. Aliquam eu faucibus felis, eget pretium dolor. Praesent et dolor augue. 
-            </p>
-            <button type="button" class="btn">Aliquam eu</button>
-          </div>
-          <div class="about-image-card">
-            <img src="img/image3.jpg" alt="image" class="about-image">
-          </div>
-        </div>
-      </section>
-    </main>
-      <!-- Footer section -->
-      <!-- Footer section contains nav and subnav sections, like in header -->
-
-      <footer class="footer">
-        <div class="footer-content">
-          <div class="footer-nav">
-            <div class="footer-nav-item">
-              <h3 class="footer-nav-title">About us</h3>
-              <ul class="footer-nav-list">
-                <li class="footer-nav-list-item">
-                  <a href="#" class="footer-nav-link">Lorem ipsum</a>
-                </li>
-                <li class="footer-nav-list-item">
-                  <a href="#" class="footer-nav-link">Lorem ipsum</a>
-                </li>
-                <li class="footer-nav-list-item">
-                  <a href="#" class="footer-nav-link">Lorem ipsum</a>
-                </li>
-                <li class="footer-nav-list-item">
-                  <a href="#" class="footer-nav-link">Lorem ipsum</a>
-                </li>
-                 <li class="footer-nav-list-item">
-                  <a href="#" class="footer-nav-link">Lorem ipsum</a>
-                </li>
-              </ul>
-            </div>
-            <div class="footer-nav-item">
-              <h3 class="footer-nav-title">Sustainability</h3>
-              <ul class="footer-nav-list">
-                <li class="footer-nav-list-item">
-                  <a href="#" class="footer-nav-link">Lorem ipsum</a>
-                </li>
-                <li class="footer-nav-list-item">
-                  <a href="#" class="footer-nav-link">Lorem ipsum</a>
-                </li>
-                <li class="footer-nav-list-item">
-                  <a href="#" class="footer-nav-link">Lorem ipsum</a>
-                </li>
-                <li class="footer-nav-list-item">
-                  <a href="#" class="footer-nav-link">Lorem ipsum</a>
-                </li>
-                 <li class="footer-nav-list-item">
-                  <a href="#" class="footer-nav-link">Lorem ipsum</a>
-                </li>
-              </ul>
-            </div>
-            <div class="footer-nav-item">
-              <h3 class="footer-nav-title">Investors</h3>
-              <ul class="footer-nav-list">
-                <li class="footer-nav-list-item">
-                  <a href="#" class="footer-nav-link">Lorem ipsum</a>
-                </li>
-                <li class="footer-nav-list-item">
-                  <a href="#" class="footer-nav-link">Lorem ipsum</a>
-                </li>
-                <li class="footer-nav-list-item">
-                  <a href="#" class="footer-nav-link">Lorem ipsum</a>
-                </li>
-                <li class="footer-nav-list-item">
-                  <a href="#" class="footer-nav-link">Lorem ipsum</a>
-                </li>
-                 <li class="footer-nav-list-item">
-                  <a href="#" class="footer-nav-link">Lorem ipsum</a>
-                </li>
-              </ul>
-            </div>
-            <div class="footer-nav-item">
-              <h3 class="footer-nav-title">Corporate governance</h3>
-              <ul class="footer-nav-list">
-                <li class="footer-nav-list-item">
-                  <a href="#" class="footer-nav-link">Lorem ipsum</a>
-                </li>
-                <li class="footer-nav-list-item">
-                  <a href="#" class="footer-nav-link">Lorem ipsum</a>
-                </li>
-                <li class="footer-nav-list-item">
-                  <a href="#" class="footer-nav-link">Lorem ipsum</a>
-                </li>
-                <li class="footer-nav-list-item">
-                  <a href="#" class="footer-nav-link">Lorem ipsum</a>
-                </li>
-              </ul>
-            </div>
-            <div class="footer-nav-item">
-              <h3 class="footer-nav-title">Press and media</h3>
-              <ul class="footer-nav-list">
-                <li class="footer-nav-list-item">
-                  <a href="#" class="footer-nav-link">Lorem ipsum</a>
-                </li>
-                <li class="footer-nav-list-item">
-                  <a href="#" class="footer-nav-link">Lorem ipsum</a>
-                </li>
-                <li class="footer-nav-list-item">
-                  <a href="#" class="footer-nav-link">Lorem ipsum</a>
-                </li>
-                <li class="footer-nav-list-item">
-                  <a href="#" class="footer-nav-link">Lorem ipsum</a>
-                </li>
-                 <li class="footer-nav-list-item">
-                  <a href="#" class="footer-nav-link">Lorem ipsum</a>
-                </li>
-              </ul>
-            </div>
-            <div class="footer-nav-item">
-              <h3 class="footer-nav-title">Careers</h3>
-              <ul class="footer-nav-list">
-                <li class="footer-nav-list-item">
-                  <a href="#" class="footer-nav-link">Lorem ipsum</a>
-                </li>
-                <li class="footer-nav-list-item">
-                  <a href="#" class="footer-nav-link">Lorem ipsum</a>
-                </li>
-                <li class="footer-nav-list-item">
-                  <a href="#" class="footer-nav-link">Lorem ipsum</a>
-                </li>
-                <li class="footer-nav-list-item">
-                  <a href="#" class="footer-nav-link">Lorem ipsum</a>
-                </li>
-                 <li class="footer-nav-list-item">
-                  <a href="#" class="footer-nav-link">Lorem ipsum</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-
-
-
-<!-- Footer contacts -->
-          <div class="footer-contacts">
-            <div class="footer-contacts-item">
-              <h3 class="footer-contacts-title">contact</h3>
-              <ul class="footer-contacts-list">
-                <li class="footer-contacts-list-item">
-                  <p>POSTADRESS: Försäkring, Box 22068, 25022 Helsingborg</p>
-                </li>
-                <li class="footer-contacts-list-item">
-                  <a href="mailto:kunder@lorem.se" class="footer-contacts-link">
-                 kunder@lorem.se
-                  </a>
-                </li>
-                <li class="footer-contacts-list-item">
-                  <a href="tel:0771113113" class="footer-contacts-link">
-                    Telefon: 0771-113 113
-                  </a>
-                </li>
-              </ul>
-            </div>
-
-
-            <!--
-              Social media, privacy policy, logo
-            -->
-
-          <div class="footer-bottom">
-
-            <div class="footer-bottom-item item-a">
-              <ul class="footer-bottom-list">
-                <li class="footer-bottom-list-item">
-                  <a href="#" class="footer-bottom-link">
-                    <img src="/img/SVG/facebook.svg" alt="Facebook" class="footer-bottom-link-img">
-                  </a>
-                </li>
-
-                <li class="footer-bottom-list-item">
-                  <a href="#" class="footer-bottom-link">
-                    <img src="/img/SVG/linkedin.svg" alt="LinkedIn" class="footer-bottom-link-img">
-                  </a>
-                </li>
-              </ul>
-            </div>
-           
-            <div class="footer-bottom-item item-b">
-              <ul class="footer-bottom-list footer-bottom-list-company">
-                <li class="footer-bottom-list-item">
-                  <p class="footer-bottom-text">© 2021 Försäkring AB</p>
-                </li>
-                <li class="footer-bottom-list-item">
-                  <a href="#" class="footer-bottom-link">Cookies  |</a><a href="#" class="footer-bottom-link">  Privacy Policy</a>
-                </li>
-              </ul>
-            </div>
-        
-            <div class="footer-bottom-item item-c">
-              <a href="#" class="footer-bottom-logo">
-                <img src="/img/SVG/logo.svg" alt="Logo" class="footer-bottom-logo-img">
-              </a>
-            </div>
-          </div> 
-          </div>
-          </div>
-      </footer>
-
-  
-  <script src="/dist/script.js"></script>
-</body>
-</html>*/
- /*
- $color-black: #000;
-$color-white: #fff;
-$color-grey: #F2F2F2;
-$color-green: #008948;
-$color-light-green: #D8E8C5;
-$color-orange: #EE7203;
-$color-light-orange: #F9CAA0;
-$color-black-text: #102F2D;
-$color-footer-bg: #333333;
-
-$font-family-main: 'Montserrat',
-sans-serif;
-$font-family-secondary: 'Arial',
-sans-serif;
-
-// Variables font-size
-$font-size-xxs: 0.625rem; // 10px
-$font-size-xs: 0.75rem; // 12px
-$font-size-sm: 0.875rem; // 14px
-$font-size-md: 1rem; // 16px
-$font-size-lg: 1.125rem; // 18px
-$font-size-xl: 1.25rem; // 20px
-$font-size-xxl: 1.5rem; // 24px
-$font-size-xxxl: 1.875rem; // 30px
-$font-size-xxxxl: 2.5rem; // 40px
-
-// Variables font-weight
-$font-weight-light: 300;
-$font-weight-normal: 400;
-$font-weight-bold: 700;
-
-// Variables border-radius
-$border-radius-sm: 0.25rem; // 4px
-$border-radius-md: 0.5rem; // 8px
-$border-radius-lg: 1rem; // 16px
-$border-radius-xl: 2rem; // 32px
-
-// Variables line-height
-$line-height-sm: 1.5; // 24px
-$line-height-md: 1.75; // 28px
-$line-height-lg: 2; // 32px
-
-// Breakpoints
-$breakpoint-mobile: 320px;
-$breakpoint-tablet: 768px;
-$breakpoint-desktop: 1024px;
-$breakpoint-desktop-lg: 1440px;
-
-// Container max width
-$container-max-width: 1170px;*/
-
- // Create a responsive navbar. Hamburguer menu for mobile view and a normal navbar for desktop view
-
- header {
-
-   & ul {
-     list-style: none;
-     margin: 0;
-     padding: 0;
-   }
-
-   & .active-search {
-
-     & .search-container {
-       display: block;
-     }
-
-     & .nav-banner-header {
-       display: none;
-     }
-
-
-   }
-
-
-   & .nav-banner-header {
-     display: none;
-   }
-
-   & .search-container {
-     //display: none;
-
-
-
-
-     & .search-input {
-       left: 0;
-       width: 80%;
-       margin: 0 auto;
-       padding: 0.5rem;
-       border: 1px solid #DDDDDD;
-       border-radius: $border-radius-md;
-       font-size: $font-size-sm;
-       font-weight: $font-weight-normal;
-       color: $color-black;
-       line-height: $line-height-sm;
-       outline: none;
-       background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cpath d='M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z'/%3E%3Cpath d='M0 0h24v24H0z' fill='none'/%3E%3C/svg%3E");
-       background-repeat: no-repeat;
-       background-size: 18px 18px;
-       background-position: 5% center;
-       border-radius: 26px;
-
-
-       &::placeholder {
-         color: #AAA;
-         padding: 0 0 0 2rem;
-       }
-     }
-
-   }
-
-   & .nav-banner {
-     position: relative;
-
-
-
-     & .nav-banner-language {
-       position: absolute;
-       right: 1.75rem;
-       padding-top: .75rem;
-
-       & .nav-banner-btn {
-         background-color: $color-mobile-active-menu-bg;
-         border: none;
-         font-size: $font-size-sm;
-         font-weight: $font-weight-normal;
-         color: $color-green;
-         cursor: pointer;
-         line-height: 24px;
-         text-align: center;
-       }
-
-       & .btn-eng {
-         color: $color-black;
-         margin-right: .3rem;
-
-       }
-     }
-
-     & .nav-banner-text {
-       display: none;
-     }
-   }
- }
-
- #navbar {
-   display: flex;
-   justify-content: space-around;
-   align-items: center;
-   padding: 1rem 0;
-   background-color: $color-white;
-   z-index: 99;
-   padding-left: 1rem;
-
-   & .nav-icons {
-     display: flex;
-     justify-content: end;
-     align-items: center;
-     width: 10rem;
-     margin-right: 1.75rem;
-     color: $color-black;
-     cursor: pointer;
-
-     & .search {
-       margin-right: 1.2rem;
-     }
-   }
- }
-
- .nav-menu {
-   display: grid;
-   grid-template-columns: 1fr;
-   grid-template-rows: repeat(7, 30px);
-   //grid-gap: 1rem;
-   position: fixed;
-   left: -100%;
-   top: 4.9rem;
-   flex-direction: column;
-   width: 100%;
-
-   height: 100%;
-   margin-top: 4.9rem;
-   text-align: center;
-   transition: 0.3s;
-   background-color: $color-mobile-active-menu-bg;
-   z-index: 99;
-
- }
-
-
-
- .nav-menu.active {
-   left: 0;
- }
-
- .nav-item {
-   padding: 1rem 1.5rem;
-   position: relative;
-   text-align: left;
-   cursor: pointer;
-
-
-   & .nav-link:active {
-     color: $color-green;
-     margin-bottom: 10rem;
-   }
-
-
- }
-
- .nav-link {
-   font-size: $font-size-xl;
-   font-weight: $font-weight-normal;
-   position: static;
-   text-decoration: none;
-   color: $color-black;
-
-
- }
-
- .nav-item:after {
-   content: "+";
-   display: block;
-   position: absolute;
-   right: 2rem;
-   top: 15px;
-   transform: translateY(-50%);
-   color: $color-black;
-   font-size: $font-size-xxl;
-   font-weight: 100;
-   //transition: 0.3s ease-in-out;
- }
-
- //.nav-item:hover:after,
- .nav-item:focus:after,
- .nav-item:active:after {
-   content: "-";
-   right: 2.2rem;
- }
-
-
-
- // Submenu, dropdown menu. It will be displayed when the user click on the nav-item. It will be hidden when the user click outside the menu. 
-
- .subnav-content {
-   display: none;
-   position: absolute;
-   top: 100%;
-   left: 0;
-   width: 100%;
-   background-color: $color-mobile-active-menu-bg;
-   //show other nav-items after the subnav-content
-
-
-
- }
-
- .subnav-content a {}
-
- .nav-item:hover .subnav-content,
- .nav-item:focus .subnav-content,
- .nav-item:active .subnav-content {
-   //show other nav-items after the subnav-content
-   display: flex;
-   flex-direction: column;
-   flex-wrap: wrap;
-   justify-content: space-around;
-   align-items: center;
-   align-content: center;
-   text-align: left;
- }
-
-
-
-
- /*.subnav-content {
+header {
+
+  & ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  & .active-search {
+
+    & .search-container {
+      display: block;
+    }
+
+    & .nav-banner-header {
+      display: none;
+    }
+  }
+
+  & .nav-banner-header {
+    display: none;
+  }
+
+  & .search-container {
+
+    & .search-input {
+      background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cpath d='M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z'/%3E%3Cpath d='M0 0h24v24H0z' fill='none'/%3E%3C/svg%3E");
+      background-position: 5% center;
+      background-repeat: no-repeat;
+      background-size: 18px 18px;
+      border: 1px solid #DDDDDD;
+      border-radius: $border-radius-md;
+      border-radius: 26px;
+      color: $color-black;
+      font-size: $font-size-sm;
+      font-weight: $font-weight-normal;
+      left: 0;
+      line-height: $line-height-sm;
+      margin: 0 auto;
+      outline: none;
+      padding: 0.5rem;
+      width: 80%;
+
+
+      &::placeholder {
+        color: #AAA;
+        padding: 0 0 0 2rem;
+      }
+    }
+
+  }
+
+  & .nav-banner {
+    position: relative;
+
+
+
+    & .nav-banner-language {
+      padding-top: .75rem;
+      position: absolute;
+      right: 1.75rem;
+
+      & .nav-banner-btn {
+        background-color: $color-mobile-active-menu-bg;
+        border: none;
+        color: $color-green;
+        cursor: pointer;
+        font-size: $font-size-sm;
+        font-weight: $font-weight-normal;
+        line-height: 24px;
+        text-align: center;
+      }
+
+      & .btn-eng {
+        color: $color-black;
+        margin-right: .3rem;
+      }
+    }
+
+    & .nav-banner-text {
+      display: none;
+    }
+  }
+}
+
+#navbar {
+  align-items: center;
+  background-color: $color-white;
+  display: flex;
+  justify-content: space-around;
+  padding: 1rem 0;
+  padding-left: 1rem;
+  z-index: 99;
+
+  & .nav-icons {
+    align-items: center;
+    color: $color-black;
+    cursor: pointer;
+    display: flex;
+    justify-content: end;
+    margin-right: 1.75rem;
+    width: 10rem;
+
+    & .search {
+      margin-right: 1.2rem;
+    }
+  }
+}
+
+.nav-menu {
+  background-color: $color-mobile-active-menu-bg;
+  display: grid;
+  flex-direction: column;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(7, 30px);
+  height: 100%;
+  left: -100%;
+  margin-top: 4.9rem;
+  position: fixed;
+  text-align: center;
+  top: 4.9rem;
+  transition: 0.3s;
+  width: 100%;
+  z-index: 99;
+}
+
+
+.nav-menu.active {
+  left: 0;
+}
+
+.nav-item {
+  cursor: pointer;
+  padding: 1rem 1.5rem;
+  position: relative;
+  text-align: left;
+
+  & .nav-link:active {
+    color: $color-green;
+    margin-bottom: 10rem;
+  }
+}
+
+.nav-link {
+  color: $color-black;
+  font-size: $font-size-xl;
+  font-weight: $font-weight-normal;
+  position: static;
+  text-decoration: none;
+}
+
+.nav-item:after {
+  color: $color-black;
+  content: "+";
+  display: block;
+  font-size: $font-size-xxl;
+  font-weight: 100;
+  position: absolute;
+  right: 2rem;
+  top: 15px;
+  transform: translateY(-50%);
+  transition: 0.3s ease-in-out;
+}
+
+//.nav-item:hover:after,
+.nav-item:focus:after,
+.nav-item:active:after {
+  content: "-";
+  right: 2.2rem;
+}
+
+.subnav-content {
+  background-color: $color-mobile-active-menu-bg;
+  display: none;
+  left: 0;
+  position: absolute;
+  top: 100%;
+  width: 100%;
+}
+
+.subnav-content a {}
+
+.nav-item:hover .subnav-content,
+.nav-item:focus .subnav-content,
+.nav-item:active .subnav-content {
+  align-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-align: left;
+}
+
+/*.subnav-content {
    display: none;
    position: absolute;
    top: 100%;
@@ -778,157 +216,152 @@ $container-max-width: 1170px;*/
    pointer-events: all;
  }*/
 
- .hamburger {
-   display: block;
-   cursor: pointer;
- }
+.hamburger {
+  cursor: pointer;
+  display: block;
+}
 
- .bar {
-   display: block;
-   width: 25px;
-   height: 3px;
-   margin: 5px auto;
-   -webkit-transition: all 0.3s ease-in-out;
-   transition: all 0.3s ease-in-out;
-   background-color: $color-black;
- }
+.bar {
+  background-color: $color-black;
+  display: block;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  width: 25px;
+}
 
- .hamburger.active .bar:nth-child(2) {
-   opacity: 0;
- }
+.hamburger.active .bar:nth-child(2) {
+  opacity: 0;
+}
 
- .hamburger.active .bar:nth-child(1) {
-   transform: translateY(8px) rotate(45deg);
- }
+.hamburger.active .bar:nth-child(1) {
+  transform: translateY(8px) rotate(45deg);
+}
 
- .hamburger.active .bar:nth-child(3) {
-   transform: translateY(-8px) rotate(-45deg);
- }
+.hamburger.active .bar:nth-child(3) {
+  transform: translateY(-8px) rotate(-45deg);
+}
 
- .sticky {
-   position: fixed;
-   top: 0;
-   width: 100%;
- }
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
 
- @media only screen and (min-width:$breakpoint-desktop) {
+@media only screen and (min-width:$breakpoint-desktop) {
 
-   #navbar {
-     display: grid;
-     grid-template-columns: (9, 1fr);
-     padding: 1rem 1.5rem;
-     max-width: $container-max-width;
-     margin: 0 auto;
-   }
+  #navbar {
+    display: grid;
+    grid-template-columns: (9, 1fr);
+    margin: 0 auto;
+    max-width: $container-max-width;
+    padding: 1rem 1.5rem;
+  }
 
-   .menu-container,
-   .search-container,
-   .search {
-     display: none;
-   }
+  .menu-container,
+  .search-container,
+  .search {
+    display: none;
+  }
 
-   .nav-menu {
-     all: unset;
-     display: grid;
-     grid-template-columns: repeat(7, 1fr);
-     grid-template-rows: 1fr 1fr;
-     grid-gap: 1rem;
-     position: static;
-     width: 100%;
-     height: 100%;
-     margin-top: 0;
-     text-align: center;
-     transition: 0.3s;
-     background-color: $color-white;
-     z-index: 99;
+  .nav-menu {
+    all: unset;
+    background-color: $color-white;
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: 1fr 1fr;
+    height: 100%;
+    margin-top: 0;
+    position: static;
+    text-align: center;
+    transition: 0.3s;
+    width: 100%;
+    z-index: 99;
 
-     & .nav-banner {
-       grid-column: 1 / 8;
-       grid-row: 1 / 2;
-       display: flex;
-       //reverse the order of the elements
-       flex-direction: row-reverse;
-       background-color: $color-white;
+    & .nav-banner {
+      background-color: $color-white;
+      display: flex;
+      flex-direction: row-reverse;
+      grid-column: 1 / 8;
+      grid-row: 1 / 2;
 
+      & .nav-banner-text {
+        display: block;
+      }
 
-       & .nav-banner-text {
-         display: block;
-       }
+      & .nav-banner-language {}
+    }
+  }
 
-       & .nav-banner-language {}
-     }
-   }
+  .nav-item {
+    border-radius: 5px;
+    color: $color-black;
+    cursor: pointer;
+    margin: 1rem .5rem;
+    padding: 1rem 0;
+  }
 
-   .nav-item {
-     padding: 1rem 0;
-     color: $color-black;
-     border-radius: 5px;
-     margin: 1rem .5rem;
-     cursor: pointer;
+  .nav-item:hover,
+  .nav-item:focus,
+  .nav-item:active {
+    background-color: $color-black;
+  }
 
+  .nav-link {
+    color: $color-black;
+    font-size: $font-size-md;
+    font-weight: $font-weight-bold;
+    height: 100%;
+    margin: .5rem;
+    padding: 1rem;
+    width: 100%;
+  }
 
-   }
+  .nav-link:hover,
+  .nav-link:focus,
+  .nav-link:active {
+    color: $color-white;
+    transition: 0.3s ease-in-out;
+  }
 
-   .nav-item:hover,
-   .nav-item:focus,
-   .nav-item:active {
-     background-color: $color-black;
-   }
+  .nav-item:after {
+    display: none;
+  }
 
-   .nav-link {
-     font-size: $font-size-md;
-     font-weight: $font-weight-bold;
-     color: $color-black;
-     width: 100%;
-     height: 100%;
-     padding: 1rem;
-     margin: .5rem;
-   }
+  .subnav-content {
+    background-color: $color-white;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    display: none;
+    font-size: $font-size-sm;
+    font-weight: $font-weight-light;
+    margin: auto;
+    pointer-events: all;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+  }
 
-   .nav-link:hover,
-   .nav-link:focus,
-   .nav-link:active {
-     color: $color-white;
-     transition: 0.3s ease-in-out;
-   }
+  .subnav-content-link {
+    background-color: $color-black;
+    color: $color-white;
+    display: block;
+    float: none;
+    padding: 12px;
+    text-align: left;
+  }
 
-   .nav-item:after {
-     display: none;
-   }
+  .subnav-content-link:hover,
+  .subnav-content-link:focus,
+  .subnav-content-link:active {
+    background-color: $color-white;
+    color: $color-black;
+  }
 
-   .subnav-content {
-     display: none;
-     position: absolute;
-     background-color: $color-white;
-     width: 100%;
-     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-     z-index: 1;
-     margin: auto;
-     font-size: $font-size-sm;
-     font-weight: $font-weight-light;
-     pointer-events: all;
-   }
-
-   .subnav-content-link {
-     float: none;
-     padding: 12px;
-     display: block;
-     text-align: left;
-     background-color: $color-black;
-     color: $color-white;
-   }
-
-   .subnav-content-link:hover,
-   .subnav-content-link:focus,
-   .subnav-content-link:active {
-     background-color: $color-white;
-     color: $color-black;
-   }
-
-   .nav-item:hover .subnav-content,
-   .nav-item:focus .subnav-content,
-   .nav-item:active .subnav-content {
-     display: block;
-   }
-
- }
+  .nav-item:hover .subnav-content,
+  .nav-item:focus .subnav-content,
+  .nav-item:active .subnav-content {
+    display: block;
+  }
+}

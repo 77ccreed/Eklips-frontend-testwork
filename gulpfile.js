@@ -53,3 +53,6 @@ exports.default = series(
   browsersyncServe,
   watchTask
 );
+
+// Add build task
+exports.build = series(scssTask, jsTask);

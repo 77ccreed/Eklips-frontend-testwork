@@ -4,6 +4,7 @@ const postcss = require('gulp-postcss');
 const cssnano = require('cssnano');
 const terser = require('gulp-terser');
 const browserSync = require('browser-sync').create();
+const deploy = require('gulp-gh-pages');
 
 
 // Sass Task
@@ -54,5 +55,11 @@ exports.default = series(
   watchTask
 );
 
-// Add build task
-exports.build = series(scssTask, jsTask);
+// Publish Task
+exports.deploy = function () {
+  return src('./dist/**/*')
+    .pipe(deploy())
+}
+
+
+

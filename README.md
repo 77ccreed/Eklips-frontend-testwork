@@ -71,6 +71,7 @@ automated systems
 - Clone the project from GitHub.
 - Run `npm install` to install the dependencies.
 - Run `gulp` to start the project.
+- Go to `http://localhost:3000/` in your browser.
 
 ### Screenshot of the project in the browser
 
@@ -100,6 +101,7 @@ automated systems
 - Day 4: I drafted the CSS styles for all the other components. Not everything is finished correctly. It took me about 6 hours.
 - Day 5: I improved the CSS styles and the README file. It took me about 6 hours.
 - Day 6: I finished designing all the components except the navbar. I've uploaded the repo to GitHub. I tried to upload the page to Netlify but it doesn't work. It could be an issue with the build process or configuration settings. All this took 8 hours of working time.
+- Day 7: I rewrote the README. I wrote navbar views. I tried uploading the page to Netifly and GitHub but the page preview is not working. It took me about 8hours.
 
 ### What I learned
 

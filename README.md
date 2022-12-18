@@ -9,10 +9,12 @@
     - [Requirements](#requirements)
     - [Plus Points](#plus-points)
     - [Outcomes](#outcomes)
-    - [Screenshot](#screenshot)
-    - [Links](#links)
-  - [My process](#my-process)
-    - [Built with](#built-with)
+  - [Results of the test](#results-of-the-test)
+    - [How to run the project](#how-to-run-the-project)
+    - [Screenshot of the project in the browser](#screenshot-of-the-project-in-the-browser)
+    - [Links to the project](#links-to-the-project)
+  - [Built with](#built-with)
+    - [My process](#my-process)
     - [What I learned](#what-i-learned)
     - [Useful resources](#useful-resources)
   - [Author](#author)
@@ -62,17 +64,19 @@ automated systems
 - Checkout the source from GitHub
 - Open the page in a browser
 
-### Local development
+## Results of the test
+
+### How to run the project
 
 - Clone the project from GitHub.
 - Run `npm install` to install the dependencies.
 - Run `gulp` to start the project.
 
-### Screenshot
+### Screenshot of the project in the browser
 
 ![Screenshot](./img/Screenshot.png)
 
-### Links
+### Links to the project
 
 - Solution URL: [Frontend testwork](https://github.com/77ccreed/Eklips-frontend-testwork)
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
@@ -96,10 +100,6 @@ automated systems
 - Day 4: I drafted the CSS styles for all the other components. Not everything is finished correctly. It took me about 6 hours.
 - Day 5: I improved the CSS styles and the README file. It took me about 6 hours.
 - Day 6: I finished designing all the components except the navbar. I've uploaded the repo to GitHub. I tried to upload the page to Netlify but it doesn't work. It could be an issue with the build process or configuration settings. All this took 8 hours of working time.
-
-
-- Create the homepage JavaScript functionality.
-- SCSS sorted alphabetically.
 
 ### What I learned
 

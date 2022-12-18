@@ -12,7 +12,6 @@
   - [Results of the test](#results-of-the-test)
     - [How to run the project](#how-to-run-the-project)
     - [Screenshot of the project in the browser](#screenshot-of-the-project-in-the-browser)
-    - [Links to the project](#links-to-the-project)
   - [Built with](#built-with)
     - [My process](#my-process)
     - [What I learned](#what-i-learned)
@@ -77,10 +76,6 @@ automated systems
 
 ![Screenshot](./img/Screenshot.png)
 
-### Links to the project
-
-- Solution URL: [Frontend testwork](https://github.com/77ccreed/Eklips-frontend-testwork)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## Built with
 

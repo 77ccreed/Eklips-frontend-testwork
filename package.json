@@ -20,5 +20,7 @@
     "gulp-terser": "^2.1.0",
     "sass": "^1.56.2"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "gulp-gh-pages": "^0.5.4"
+  }
 }

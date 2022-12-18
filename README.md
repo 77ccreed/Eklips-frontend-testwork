@@ -14,7 +14,6 @@
   - [My process](#my-process)
     - [Built with](#built-with)
     - [What I learned](#what-i-learned)
-    - [Continued development](#continued-development)
     - [Useful resources](#useful-resources)
   - [Author](#author)
 
@@ -105,12 +104,6 @@ automated systems
 ### What I learned
 
 The assignment was good practice on how to use nested SASS and write code quickly. It was also a great way to explore the different possibilities of SASS, such as applying styles to different kinds of elements and nesting different selectors. Overall, it was a great way to learn how to write more efficient and organized SASS code.
-
-### Continued development
-
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
 
 ### Useful resources
 

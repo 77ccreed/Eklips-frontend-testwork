@@ -150,10 +150,7 @@ header {
         text-align: left;
         white-space: nowrap;
         margin: 0 2rem;
-
-        &::marker {
-          content: none;
-        }
+        list-style-type: none;
 
         & .nav-item:after {
           color: $color-black;

@@ -53,6 +53,7 @@ exports.default = series(
   jsTask,
   browsersyncServe,
   watchTask
+
 );
 
 // Publish Task
@@ -60,6 +61,9 @@ exports.deploy = function () {
   return src('./dist/**/*')
     .pipe(deploy())
 }
+
+// Build Task
+exports.build = series(scssTask, jsTask);
 
 
 

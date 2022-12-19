@@ -16,7 +16,6 @@
     - [My process](#my-process)
     - [What I learned](#what-i-learned)
     - [Useful resources](#useful-resources)
-  - [Author](#author)
 
 ## Overview
 
@@ -75,7 +74,7 @@ automated systems
 ### Screenshot of the project in the browser
 
 ![Screenshot](./img/Screenshot.png)
-
+![Mobile Screenshot](./img/Screenshot-mobile.png)
 
 ## Built with
 
@@ -97,6 +96,7 @@ automated systems
 - Day 5: I improved the CSS styles and the README file. It took me about 6 hours.
 - Day 6: I finished designing all the components except the navbar. I've uploaded the repo to GitHub. I tried to upload the page to Netlify but it doesn't work. It could be an issue with the build process or configuration settings. All this took 8 hours of working time.
 - Day 7: I rewrote the README. I wrote navbar views. I tried uploading the page to Netifly and GitHub but the page preview is not working. It took me about 8 hours.
+- Day 8: I refactored the navbar styles. It took me about 4 hours.
 
 ### What I learned
 
@@ -108,8 +108,3 @@ The assignment was good practice on how to use nested SASS and write code quickl
 - [Easily test your site across all browsers](https://www.youtube.com/watch?v=pRpsi1Z5YY0&ab_channel=KevinPowell) - This helped me test my site across all browsers (Chrome, Firefox, Edge, Safari, Opera, etc.)
 - [Reliable end-to-end testing for modern web apps.](https://playwright.dev/) - This is tool I used to test my site across all browsers (Chrome, Firefox, Edge, Safari, Opera, etc.)
 - [HTML, CSS Search Boxes Examples](https://templateyou.com/free-css-search-boxes/)
-
-## Author
-
-- LinkedIn - [Kiur Jullis](https://www.linkedin.com/in/kiur-jullis-89b4929b/)
-- GitHub - [Kiur Jullis](https://github.com/77ccreed)

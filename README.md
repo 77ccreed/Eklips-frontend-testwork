@@ -73,8 +73,10 @@ automated systems
 
 ### Screenshot of the project in the browser
 
+Mobile view
+![Mobile Screenshot](./img/Screenshot-mobile-view.png)
+Desktop view
 ![Screenshot](./img/Screenshot.png)
-![Mobile Screenshot](./img/Screenshot-mobile.png)
 
 ## Built with
 

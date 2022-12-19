@@ -1,24 +1,24 @@
 (() => {
   const hamburger = document.querySelector(".hamburger");
   const search = document.querySelector(".search");
-
   const navMenu = document.querySelector(".nav-menu");
   const navLink = document.querySelectorAll(".nav-link");
-  const mainContent = document.querySelector(".content");
   let subnavContentLinks = document.getElementsByClassName("subnav-content-link");
 
   hamburger.addEventListener("click", mobileMenu);
   navLink.forEach(n => n.addEventListener("click", mobileMenuClick));
   search.addEventListener("click", mobileSearch);
+  searchContainer = document.querySelector(".search-container");
 
   function mobileSearch() {
-    navMenu.classList.toggle("active");
+    console.log("search");
+    searchContainer.classList.toggle("active");
+    //navMenu.classList.toggle("active");
   }
 
   function mobileMenu() {
     hamburger.classList.toggle("active");
     navMenu.classList.toggle("active");
-    mainContent.classList.toggle("active-content");
   }
 
   function mobileMenuClick(e) {
@@ -29,7 +29,7 @@
   for (let i = 0, len = subnavContentLinks.length; i < len; i++) {
     subnavContentLinks[i].onclick = function (e) {
       e.preventDefault();
-      alert("Congratulations! You have clicked the subnav link!");
+      console.log("subnav link clicked");
     }
   }
 
@@ -52,7 +52,6 @@
       navbar.classList.remove("sticky");
       navMenu.classList.remove("sticky");
     }
-
   }
 
 })();

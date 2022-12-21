@@ -53,17 +53,14 @@ exports.default = series(
   jsTask,
   browsersyncServe,
   watchTask
-
 );
 
-// Publish Task
+// Publish Task (Deploy to Github Pages)
 exports.deploy = function () {
-  return src('./dist/**/*')
+  return src("./dist/**/*")
     .pipe(deploy())
 }
 
-// Build Task
-exports.build = series(scssTask, jsTask);
 
 
 

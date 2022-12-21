@@ -1,440 +1,452 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Frontend test</title>
-  <link rel="stylesheet" type="text/css" href="/dist/style.css">  
+  <link rel="stylesheet" type="text/css" href="/dist/style.css">
 </head>
+
 <body>
- <header class="header">
-      <div class="nav-banner-header">
-        <div class="nav-banner-language-container">
+  <header class="header">
+    <div class="nav-banner-header">
+      <div class="nav-banner-language-container">
         <div class="nav-banner-language">
           <button class="nav-banner-btn btn-eng">English</button>
           <button class="nav-banner-btn btn-swe">Swenska</button>
         </div>
-       <p class="nav-banner-text">LOREM 33.30 SEK +0.33 %</p>
-       </div>
+        <p class="nav-banner-text">LOREM 33.30 SEK +0.33 %</p>
+      </div>
+    </div>
+
+    <nav id="navbar">
+
+      <div class="nav-logo-container">
+        <a href="#" class="nav-logo">
+          <img src="/img/SVG/nav-logo.svg" alt="Eklips Digital navbar logo" class="nav-logo-img">
+        </a>
       </div>
 
-      <nav id="navbar">  
+      <ul class="nav-menu">
 
-        <div class="nav-logo-container">
-            <a href="#" class="nav-logo">
-              <img src="/img/SVG/nav-logo.svg" alt="Eklips Digital navbar logo" class="nav-logo-img">
-            </a>
-        </div>      
-          
-        <ul class="nav-menu">      
-          <li class="nav-banner">
-            <div class="nav-banner-language">
-             <button class="nav-banner-btn btn-eng">English</button>
-             <button class="nav-banner-btn btn-swe">Swenska</button>
-            </div>
-          </li>
+        <li class="nav-banner">
+          <div class="nav-banner-language">
+            <button class="nav-banner-btn btn-eng">English</button>
+            <button class="nav-banner-btn btn-swe">Swenska</button>
+          </div>
+        </li>
 
-          <li class="search-container">
-            <input class="search-input" type="text" placeholder="Sök" aria-label="Search">
-          </li>
 
-          <li class="nav-item">
-            <a href="" class="nav-link" aria-haspopup="menu" role="button">About us</a>
-            <ul>
-              <li class="subnav-content">
-                <a href="" class="subnav-content-link">Lorem ipsum</a>
-                <a href="" class="subnav-content-link">Lorem ipsum</a>
-                <a href="" class="subnav-content-link">Lorem ipsum</a>
-                <a href="" class="subnav-content-link">Lorem ipsum</a>
-                <a href="" class="subnav-content-link">Lorem ipsum</a>   
-              </li>
-            </ul>
-          </li>
-          <li class="nav-item">
-            <a href="" class="nav-link" aria-haspopup="menu" role="button">Sustainability</a>
-            <ul>
-              <li class="subnav-content">
-                <a href="" class="subnav-content-link">Lorem ipsum</a>
-                <a href="" class="subnav-content-link">Lorem ipsum</a>
-                <a href="" class="subnav-content-link">Lorem ipsum</a>
-                <a href="" class="subnav-content-link">Lorem ipsum</a>
-                <a href="" class="subnav-content-link">Lorem ipsum</a>
-              </li>
-            </ul>
-          </li>
-          <li class="nav-item">
-            <a href="" class="nav-link" aria-haspopup="menu"  role="button">Investors</a>
-            <ul>
-              <li class="subnav-content">
-                <a href="" class="subnav-content-link">Lorem ipsum</a>
-                <a href="" class="subnav-content-link">Lorem ipsum</a>
-                <a href="" class="subnav-content-link">Lorem ipsum</a>
-                <a href="" class="subnav-content-link">Lorem ipsum</a>
-                <a href="" class="subnav-content-link">Lorem ipsum</a>
-                
-              </li>
-            </ul>
-          </li>
-          <li class="nav-item">
-            <a href="" class="nav-link" aria-haspopup="menu" role="button">Corporate governance</a>
-            <ul>
-              <li class="subnav-content">
-                <a href="" class="subnav-content-link">Lorem ipsum</a>
-                <a href="" class="subnav-content-link">Lorem ipsum</a>
-                <a href="" class="subnav-content-link">Lorem ipsum</a>
-                <a href="" class="subnav-content-link">Lorem ipsum</a>
-                <a href="" class="subnav-content-link">Lorem ipsum</a>
-              </li>
-            </ul>
-          </li>
-          <li class="nav-item">
-            <a href="" class="nav-link" aria-haspopup="menu" role="button">Financial calendar</a>
-            <ul>
-              <li class="subnav-content">
-                <a href="" class="subnav-content-link">Lorem ipsum</a>
-                <a href="" class="subnav-content-link">Lorem ipsum</a>
-                <a href="" class="subnav-content-link">Lorem ipsum</a>
-                <a href="" class="subnav-content-link">Lorem ipsum</a>
-                <a href="" class="subnav-content-link">Lorem ipsum</a>
-              </li>
-            </ul>
-          </li>
-          <li class="nav-item">
-            <a href="" class="nav-link" aria-haspopup="menu" role="button">Press and media</a>
-            <ul>
-              <li class="subnav-content">
-                <a href="" class="subnav-content-link">Lorem ipsum</a>
-                <a href="" class="subnav-content-link">Lorem ipsum</a>
-                <a href="" class="subnav-content-link">Lorem ipsum</a>
-                <a href="" class="subnav-content-link">Lorem ipsum</a>
-                <a href="" class="subnav-content-link">Lorem ipsum</a>
-              </li>
-            </ul>
-          </li>
-          <li class="nav-item">
-            <a href="" class="nav-link" aria-haspopup="menu" role="button">Careers</a>
-            <ul>
-              <li class="subnav-content">
-                <a href="" class="subnav-content-link">Lorem ipsum</a>
-                <a href="" class="subnav-content-link">Lorem ipsum</a>
-                <a href="" class="subnav-content-link">Lorem ipsum</a>
-                <a href="" class="subnav-content-link">Lorem ipsum</a>
-                <a href="" class="subnav-content-link">Lorem ipsum</a>
-              </li>
-            </ul>
-          </li>
-        </ul>
-        <div class="nav-icons">
+        <li class="search-container">
+          <input class="search-input" type="text" placeholder="Sök" aria-label="Search">
+        </li>
+
+        <li class="nav-item">
+          <a href="" class="nav-link" aria-haspopup="menu" role="button">About us<span class="nav-link-plus"></span></a>
+          <ul>
+            <li class="subnav-content">
+              <a href="" class="subnav-content-link">Lorem ipsum</a>
+              <a href="" class="subnav-content-link">Lorem ipsum</a>
+              <a href="" class="subnav-content-link">Lorem ipsum</a>
+              <a href="" class="subnav-content-link">Lorem ipsum</a>
+              <a href="" class="subnav-content-link">Lorem ipsum</a>
+            </li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a href="" class="nav-link" aria-haspopup="menu" role="button">Sustainability<span
+              class="nav-link-plus"></span></a>
+          <ul>
+            <li class="subnav-content">
+              <a href="" class="subnav-content-link">Lorem ipsum</a>
+              <a href="" class="subnav-content-link">Lorem ipsum</a>
+              <a href="" class="subnav-content-link">Lorem ipsum</a>
+              <a href="" class="subnav-content-link">Lorem ipsum</a>
+              <a href="" class="subnav-content-link">Lorem ipsum</a>
+            </li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a href="" class="nav-link" aria-haspopup="menu" role="button">Investors<span
+              class="nav-link-plus"></span></a>
+          <ul>
+            <li class="subnav-content">
+              <a href="" class="subnav-content-link">Lorem ipsum</a>
+              <a href="" class="subnav-content-link">Lorem ipsum</a>
+              <a href="" class="subnav-content-link">Lorem ipsum</a>
+              <a href="" class="subnav-content-link">Lorem ipsum</a>
+              <a href="" class="subnav-content-link">Lorem ipsum</a>
+
+            </li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a href="" class="nav-link" aria-haspopup="menu" role="button">Corporate governance<span
+              class="nav-link-plus"></span></a>
+          <ul>
+            <li class="subnav-content">
+              <a href="" class="subnav-content-link">Lorem ipsum</a>
+              <a href="" class="subnav-content-link">Lorem ipsum</a>
+              <a href="" class="subnav-content-link">Lorem ipsum</a>
+              <a href="" class="subnav-content-link">Lorem ipsum</a>
+              <a href="" class="subnav-content-link">Lorem ipsum</a>
+            </li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a href="" class="nav-link" aria-haspopup="menu" role="button">Financial calendar<span
+              class="nav-link-plus"></span></a>
+          <ul>
+            <li class="subnav-content">
+              <a href="" class="subnav-content-link">Lorem ipsum</a>
+              <a href="" class="subnav-content-link">Lorem ipsum</a>
+              <a href="" class="subnav-content-link">Lorem ipsum</a>
+              <a href="" class="subnav-content-link">Lorem ipsum</a>
+              <a href="" class="subnav-content-link">Lorem ipsum</a>
+            </li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a href="" class="nav-link" aria-haspopup="menu" role="button">Press and media<span
+              class="nav-link-plus"></span></a>
+          <ul>
+            <li class="subnav-content">
+              <a href="" class="subnav-content-link">Lorem ipsum</a>
+              <a href="" class="subnav-content-link">Lorem ipsum</a>
+              <a href="" class="subnav-content-link">Lorem ipsum</a>
+              <a href="" class="subnav-content-link">Lorem ipsum</a>
+              <a href="" class="subnav-content-link">Lorem ipsum</a>
+            </li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a href="" class="nav-link" aria-haspopup="menu" role="button">Careers<span class="nav-link-plus"></span></a>
+          <ul>
+            <li class="subnav-content">
+              <a href="" class="subnav-content-link">Lorem ipsum</a>
+              <a href="" class="subnav-content-link">Lorem ipsum</a>
+              <a href="" class="subnav-content-link">Lorem ipsum</a>
+              <a href="" class="subnav-content-link">Lorem ipsum</a>
+              <a href="" class="subnav-content-link">Lorem ipsum</a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+      <div class="nav-icons">
         <div class="search" role="button" aria-label="search">
           <img src="img/SVG/search.svg" alt="search" class="search-icon">
         </div>
         <div class="menu-container" role="button" aria-label="menu">
           <div class="hamburger">
-          <span class="bar" aria-hidden="true"></span>
-          <span class="bar" aria-hidden="true"></span>
-          <span class="bar" aria-hidden="true"></span>
+            <span class="bar" aria-hidden="true"></span>
+            <span class="bar" aria-hidden="true"></span>
+            <span class="bar" aria-hidden="true"></span>
           </div>
           <p>
             Menu
           </p>
         </div>
-       </div>
-      </nav>
-    </header>
+      </div>
+    </nav>
+  </header>
 
-    <!-- Hero insaid main -->
-    <main class="main">
-     <section class="hero">
-        <div class="hero-content" role="img" aria-label="Hero image">
-          <h1 class="hero-title">Lorem ipsum dolor sit amet</h1>
-          <button type="button" class="btn">Lorem ipsum</button>
+  <main class="main">
+    <section class="hero">
+      <div class="hero-content" role="img" aria-label="Hero image">
+        <h1 class="hero-title">Lorem ipsum dolor sit amet</h1>
+        <button type="button" class="btn">Lorem ipsum</button>
+      </div>
+    </section>
+
+    <section class="info">
+      <div class="info-content">
+        <div class="info-card">
+          <h2 class="info-card-title">Press releases</h2>
+          <div class="info-card-item">
+            <p class="info-card-date">
+              13. December 2021 <span class="info-card-date-text">Regulatory</span>
+            </p>
+            <p class="info-card-text">Praesent eu velit ac diam mollis elementum sit amet ac felis</p>
+          </div>
+          <div class="info-card-item">
+            <p class="info-card-date">
+              13. December 2021 <span class="info-card-date-text">Regulatory</span>
+            </p>
+            <p class="info-card-text">Praesent eu velit ac diam mollis elementum sit amet ac felis</p>
+          </div>
+          <button type="button" class="info-btn">All press releases
+            <img src="img/SVG/arrow.svg" alt="Arrow icon 1" class="arrow">
+          </button>
         </div>
-      </section>
-
-      <section class="info">
-        <div class="info-content">
-          <div class="info-card">
-            <h2 class="info-card-title">Press releases</h2>
-            <div class="info-card-item">
-            <p class="info-card-date">
-              13. December 2021 <span class="info-card-date-text">Regulatory</span>
-            </p>
-            <p class="info-card-text">Praesent eu velit ac diam mollis elementum sit amet ac felis</p>
-            </div>
-            <div class="info-card-item">
-            <p class="info-card-date">
-              13. December 2021 <span class="info-card-date-text">Regulatory</span>
-            </p>
-            <p class="info-card-text">Praesent eu velit ac diam mollis elementum sit amet ac felis</p>
-            </div>
-            <button type="button" class="info-btn">All press releases 
-              <img src="img/SVG/arrow.svg" alt="Arrow icon 1" class="arrow">
-            </button>
-          </div>
-          <div class="info-card">
-            <h2 class="info-card-title">Financial reports</h2>
-             <div class="info-card-item">
+        <div class="info-card">
+          <h2 class="info-card-title">Financial reports</h2>
+          <div class="info-card-item">
             <p class="info-card-date">13. December 2021</p>
             <p class="info-card-text">Praesent eu velit ac diam mollis elementum sit amet ac felis</p>
-            </div>
-            <div class="info-card-item">
+          </div>
+          <div class="info-card-item">
             <p class="info-card-date">13. December 2021</p>
             <p class="info-card-text">Praesent eu velit ac diam mollis elementum sit amet ac felis</p>
-            </div>
-            <button type="button" class="info-btn">All financial reports
-              <img src="img/SVG/arrow.svg" alt="Arrow icon 2" class="arrow">
-            </button>
           </div>
-          <div class="info-card">
-            <h2 class="info-card-title">Calendar</h2>
-            <div class="info-card-calendar-item">
+          <button type="button" class="info-btn">All financial reports
+            <img src="img/SVG/arrow.svg" alt="Arrow icon 2" class="arrow">
+          </button>
+        </div>
+        <div class="info-card">
+          <h2 class="info-card-title">Calendar</h2>
+          <div class="info-card-calendar-item">
             <p class="info-card-calendar-date">
-              <span class="info-card-calendar-date-day">20</span><br/>AUG 2022
-           </p>  
+              <span class="info-card-calendar-date-day">20</span><br />AUG 2022
+            </p>
             <p class="info-card-text">Praesent eu velit ac diam mollis elementum sit amet ac felis</p>
             <p class="info-card-add-to-calendar">
               <img src="img/SVG/calendar.svg" alt="calendar" class="calendar-icon">
               Add to calendar
             </p>
-            </div>
-            <div class="info-card-calendar-item">
-              <p class="info-card-calendar-date">
-              <span class="info-card-calendar-date-day">30</span><br/>SEP 2022
-           </p>
+          </div>
+          <div class="info-card-calendar-item">
+            <p class="info-card-calendar-date">
+              <span class="info-card-calendar-date-day">30</span><br />SEP 2022
+            </p>
             <p class="info-card-text">Praesent eu velit ac diam mollis elementum sit amet ac felis</p>
             <p class="info-card-add-to-calendar">
               <img src="img/SVG/calendar.svg" alt="calendar" class="calendar-icon">
               Add to calendar
             </p>
-            </div>
-            <button type="button" class="info-btn">All events 
-              <img src="img/SVG/arrow.svg" alt="Arrow icon 3" class="arrow"></button>
           </div>
+          <button type="button" class="info-btn">All events
+            <img src="img/SVG/arrow.svg" alt="Arrow icon 3" class="arrow"></button>
         </div>
-      </section>
-      <section class="image-info">
-        <div class="image-info-content">
-          <div class="info-image-card info-image-card-1" role="img" aria-label="Image card 1">
-            <h3 class="info-card-title">Lorem ipsum</h3>
-            <p class="info-card-text">Lorem ipsum dolor sit</p>
-            <button type="button" class="info-btn">
-              <img src="img/SVG/arrow-white.svg" alt="Arrow icon 4" class="arrow">
-            </button>
-          </div>
-          <div class="info-image-card info-image-card-2" role="img" aria-label="Image card 2">
-            <h3 class="info-card-title">Lorem ipsum</h3>
-            <p class="info-card-text">Lorem ipsum dolor sit</p>
-            <button type="button" class="info-btn">
-              <img src="img/SVG/arrow-white.svg" alt="Arrow icon 5" class="arrow">
-            </button>
-          </div>
-          <div class="info-image-card info-image-card-3" role="img" aria-label="Image card 3">
-            <h3 class="info-card-title">Lorem ipsum</h3>
-            <p class="info-card-text">Lorem ipsum dolor sit</p>
-            <button type="button" class="info-btn">
-              <img src="img/SVG/arrow-white.svg" alt="Arrow icon 6" class="arrow">
-            </button>
-          </div>
+      </div>
+    </section>
+    <section class="image-info">
+      <div class="image-info-content">
+        <div class="info-image-card info-image-card-1" role="img" aria-label="Image card 1">
+          <h3 class="info-card-title">Lorem ipsum</h3>
+          <p class="info-card-text">Lorem ipsum dolor sit</p>
+          <button type="button" class="info-btn">
+            <img src="img/SVG/arrow-white.svg" alt="Arrow icon 4" class="arrow">
+          </button>
         </div>
-      </section>
-      <section class="middle-banner" role="img" aria-label="Middle banner">
-        <div class="middle-banner-container">     
+        <div class="info-image-card info-image-card-2" role="img" aria-label="Image card 2">
+          <h3 class="info-card-title">Lorem ipsum</h3>
+          <p class="info-card-text">Lorem ipsum dolor sit</p>
+          <button type="button" class="info-btn">
+            <img src="img/SVG/arrow-white.svg" alt="Arrow icon 5" class="arrow">
+          </button>
+        </div>
+        <div class="info-image-card info-image-card-3" role="img" aria-label="Image card 3">
+          <h3 class="info-card-title">Lorem ipsum</h3>
+          <p class="info-card-text">Lorem ipsum dolor sit</p>
+          <button type="button" class="info-btn">
+            <img src="img/SVG/arrow-white.svg" alt="Arrow icon 6" class="arrow">
+          </button>
+        </div>
+      </div>
+    </section>
+    <section class="middle-banner" role="img" aria-label="Middle banner">
+      <div class="middle-banner-container">
         <div class="middle-banner-content">
           <h2 class="middle-banner-title">Lorem ipsum dolor</h2>
-          <p class="middle-banner-text">Vestibulum sit amet augue mi. Praesent felis nibh, porttitor vitae ultricies sed, sodales sit amet nunc. Aliquam eu faucibus felis, eget pretium dolor. Praesent et dolor augue. </p>
+          <p class="middle-banner-text">Vestibulum sit amet augue mi. Praesent felis nibh, porttitor vitae ultricies
+            sed, sodales sit amet nunc. Aliquam eu faucibus felis, eget pretium dolor. Praesent et dolor augue. </p>
           <button type="button" class="btn">Aliquam eu</button>
         </div>
+      </div>
+    </section>
+    <section class="about">
+      <div class="about-content">
+        <div class="about-text-card">
+          <h2 class="about-title">Lorem ipsum dolor</h2>
+          <p class="about-text">
+            Vestibulum sit amet augue mi. Praesent felis nibh, porttitor vitae ultricies sed, sodales sit amet nunc.
+            Aliquam eu faucibus felis, eget pretium dolor. Praesent et dolor augue.
+          </p>
+          <button type="button" class="btn">Aliquam eu</button>
         </div>
-      </section>
-      <section class="about">
-        <div class="about-content">
-          <div class="about-text-card">
-            <h2 class="about-title">Lorem ipsum dolor</h2>
-            <p class="about-text">
-              Vestibulum sit amet augue mi. Praesent felis nibh, porttitor vitae ultricies sed, sodales sit amet nunc. Aliquam eu faucibus felis, eget pretium dolor. Praesent et dolor augue. 
-            </p>
-            <button type="button" class="btn">Aliquam eu</button>
-          </div>
-          <div class="about-image-card">
-            <img src="img/image3.jpg" alt="People play ball." class="about-image">
-          </div>
+        <div class="about-image-card">
+          <img src="img/image3.jpg" alt="People play ball." class="about-image">
         </div>
-      </section>
-    </main>
-      <footer class="footer">
-        <div class="footer-content">
-          <div class="footer-nav">
-            <div class="footer-nav-item">
-              <h3 class="footer-nav-title">About us</h3>
-              <ul class="footer-nav-list">
-                <li class="footer-nav-list-item">
-                  <a href="#" class="footer-nav-link">Lorem ipsum</a>
-                </li>
-                <li class="footer-nav-list-item">
-                  <a href="#" class="footer-nav-link">Lorem ipsum</a>
-                </li>
-                <li class="footer-nav-list-item">
-                  <a href="#" class="footer-nav-link">Lorem ipsum</a>
-                </li>
-                <li class="footer-nav-list-item">
-                  <a href="#" class="footer-nav-link">Lorem ipsum</a>
-                </li>
-                 <li class="footer-nav-list-item">
-                  <a href="#" class="footer-nav-link">Lorem ipsum</a>
-                </li>
-              </ul>
-            </div>
-            <div class="footer-nav-item">
-              <h3 class="footer-nav-title">Sustainability</h3>
-              <ul class="footer-nav-list">
-                <li class="footer-nav-list-item">
-                  <a href="#" class="footer-nav-link">Lorem ipsum</a>
-                </li>
-                <li class="footer-nav-list-item">
-                  <a href="#" class="footer-nav-link">Lorem ipsum</a>
-                </li>
-                <li class="footer-nav-list-item">
-                  <a href="#" class="footer-nav-link">Lorem ipsum</a>
-                </li>
-                <li class="footer-nav-list-item">
-                  <a href="#" class="footer-nav-link">Lorem ipsum</a>
-                </li>
-                 <li class="footer-nav-list-item">
-                  <a href="#" class="footer-nav-link">Lorem ipsum</a>
-                </li>
-              </ul>
-            </div>
-            <div class="footer-nav-item">
-              <h3 class="footer-nav-title">Investors</h3>
-              <ul class="footer-nav-list">
-                <li class="footer-nav-list-item">
-                  <a href="#" class="footer-nav-link">Lorem ipsum</a>
-                </li>
-                <li class="footer-nav-list-item">
-                  <a href="#" class="footer-nav-link">Lorem ipsum</a>
-                </li>
-                <li class="footer-nav-list-item">
-                  <a href="#" class="footer-nav-link">Lorem ipsum</a>
-                </li>
-                <li class="footer-nav-list-item">
-                  <a href="#" class="footer-nav-link">Lorem ipsum</a>
-                </li>
-                 <li class="footer-nav-list-item">
-                  <a href="#" class="footer-nav-link">Lorem ipsum</a>
-                </li>
-              </ul>
-            </div>
-            <div class="footer-nav-item">
-              <h3 class="footer-nav-title">Corporate governance</h3>
-              <ul class="footer-nav-list">
-                <li class="footer-nav-list-item">
-                  <a href="#" class="footer-nav-link">Lorem ipsum</a>
-                </li>
-                <li class="footer-nav-list-item">
-                  <a href="#" class="footer-nav-link">Lorem ipsum</a>
-                </li>
-                <li class="footer-nav-list-item">
-                  <a href="#" class="footer-nav-link">Lorem ipsum</a>
-                </li>
-                <li class="footer-nav-list-item">
-                  <a href="#" class="footer-nav-link">Lorem ipsum</a>
-                </li>
-              </ul>
-            </div>
-            <div class="footer-nav-item">
-              <h3 class="footer-nav-title">Press and media</h3>
-              <ul class="footer-nav-list">
-                <li class="footer-nav-list-item">
-                  <a href="#" class="footer-nav-link">Lorem ipsum</a>
-                </li>
-                <li class="footer-nav-list-item">
-                  <a href="#" class="footer-nav-link">Lorem ipsum</a>
-                </li>
-                <li class="footer-nav-list-item">
-                  <a href="#" class="footer-nav-link">Lorem ipsum</a>
-                </li>
-                <li class="footer-nav-list-item">
-                  <a href="#" class="footer-nav-link">Lorem ipsum</a>
-                </li>
-                 <li class="footer-nav-list-item">
-                  <a href="#" class="footer-nav-link">Lorem ipsum</a>
-                </li>
-              </ul>
-            </div>
-            <div class="footer-nav-item">
-              <h3 class="footer-nav-title">Careers</h3>
-              <ul class="footer-nav-list">
-                <li class="footer-nav-list-item">
-                  <a href="#" class="footer-nav-link">Lorem ipsum</a>
-                </li>
-                <li class="footer-nav-list-item">
-                  <a href="#" class="footer-nav-link">Lorem ipsum</a>
-                </li>
-                <li class="footer-nav-list-item">
-                  <a href="#" class="footer-nav-link">Lorem ipsum</a>
-                </li>
-                <li class="footer-nav-list-item">
-                  <a href="#" class="footer-nav-link">Lorem ipsum</a>
-                </li>
-                 <li class="footer-nav-list-item">
-                  <a href="#" class="footer-nav-link">Lorem ipsum</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="footer-contacts">
-            <div class="footer-contacts-item">
-              <h3 class="footer-contacts-title">contact</h3>
-              <ul class="footer-contacts-list">
-                <li class="footer-contacts-list-item">
-                  <p>POSTADRESS: Försäkring, Box 22068, 25022 Helsingborg</p>
-                </li>
-                <li class="footer-contacts-list-item">
-                  <a href="mailto:kunder@lorem.se" class="footer-contacts-link">
-                 kunder@lorem.se
-                  </a>
-                </li>
-                <li class="footer-contacts-list-item">
-                  <a href="tel:0771113113" class="footer-contacts-link">
-                    Telefon: 0771-113 113
-                  </a>
-                </li>
-              </ul>
-            </div>
-          <div class="footer-bottom">
-            <div class="footer-bottom-item item-a">
-              <ul class="footer-bottom-list">
-                <li class="footer-bottom-list-item">
-                  <a href="#" class="footer-bottom-link">
-                    <img src="/img/SVG/facebook.svg" alt="Facebook" class="footer-bottom-link-img">
-                  </a>
-                </li>
-                <li class="footer-bottom-list-item">
-                  <a href="#" class="footer-bottom-link">
-                    <img src="/img/SVG/linkedin.svg" alt="LinkedIn" class="footer-bottom-link-img">
-                  </a>
-                </li>
-              </ul>
-            </div>
-            <div class="footer-bottom-item item-b">
-              <ul class="footer-bottom-list footer-bottom-list-company">
-                <li class="footer-bottom-list-item">
-                  <p class="footer-bottom-text">© 2021 Försäkring AB</p>
-                </li>
-                <li class="footer-bottom-list-item">
-                  <a href="#" class="footer-bottom-link">Cookies  |</a><a href="#" class="footer-bottom-link">  Privacy Policy</a>
-                </li>
-              </ul>
-            </div>       
-            <div class="footer-bottom-item item-c">
-              <a href="#" class="footer-bottom-logo">
-                <img src="/img/SVG/logo.svg" alt="Eklips Digital logo" class="footer-bottom-logo-img">
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-nav">
+        <div class="footer-nav-item">
+          <h3 class="footer-nav-title">About us</h3>
+          <ul class="footer-nav-list">
+            <li class="footer-nav-list-item">
+              <a href="#" class="footer-nav-link">Lorem ipsum</a>
+            </li>
+            <li class="footer-nav-list-item">
+              <a href="#" class="footer-nav-link">Lorem ipsum</a>
+            </li>
+            <li class="footer-nav-list-item">
+              <a href="#" class="footer-nav-link">Lorem ipsum</a>
+            </li>
+            <li class="footer-nav-list-item">
+              <a href="#" class="footer-nav-link">Lorem ipsum</a>
+            </li>
+            <li class="footer-nav-list-item">
+              <a href="#" class="footer-nav-link">Lorem ipsum</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-nav-item">
+          <h3 class="footer-nav-title">Sustainability</h3>
+          <ul class="footer-nav-list">
+            <li class="footer-nav-list-item">
+              <a href="#" class="footer-nav-link">Lorem ipsum</a>
+            </li>
+            <li class="footer-nav-list-item">
+              <a href="#" class="footer-nav-link">Lorem ipsum</a>
+            </li>
+            <li class="footer-nav-list-item">
+              <a href="#" class="footer-nav-link">Lorem ipsum</a>
+            </li>
+            <li class="footer-nav-list-item">
+              <a href="#" class="footer-nav-link">Lorem ipsum</a>
+            </li>
+            <li class="footer-nav-list-item">
+              <a href="#" class="footer-nav-link">Lorem ipsum</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-nav-item">
+          <h3 class="footer-nav-title">Investors</h3>
+          <ul class="footer-nav-list">
+            <li class="footer-nav-list-item">
+              <a href="#" class="footer-nav-link">Lorem ipsum</a>
+            </li>
+            <li class="footer-nav-list-item">
+              <a href="#" class="footer-nav-link">Lorem ipsum</a>
+            </li>
+            <li class="footer-nav-list-item">
+              <a href="#" class="footer-nav-link">Lorem ipsum</a>
+            </li>
+            <li class="footer-nav-list-item">
+              <a href="#" class="footer-nav-link">Lorem ipsum</a>
+            </li>
+            <li class="footer-nav-list-item">
+              <a href="#" class="footer-nav-link">Lorem ipsum</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-nav-item">
+          <h3 class="footer-nav-title">Corporate governance</h3>
+          <ul class="footer-nav-list">
+            <li class="footer-nav-list-item">
+              <a href="#" class="footer-nav-link">Lorem ipsum</a>
+            </li>
+            <li class="footer-nav-list-item">
+              <a href="#" class="footer-nav-link">Lorem ipsum</a>
+            </li>
+            <li class="footer-nav-list-item">
+              <a href="#" class="footer-nav-link">Lorem ipsum</a>
+            </li>
+            <li class="footer-nav-list-item">
+              <a href="#" class="footer-nav-link">Lorem ipsum</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-nav-item">
+          <h3 class="footer-nav-title">Press and media</h3>
+          <ul class="footer-nav-list">
+            <li class="footer-nav-list-item">
+              <a href="#" class="footer-nav-link">Lorem ipsum</a>
+            </li>
+            <li class="footer-nav-list-item">
+              <a href="#" class="footer-nav-link">Lorem ipsum</a>
+            </li>
+            <li class="footer-nav-list-item">
+              <a href="#" class="footer-nav-link">Lorem ipsum</a>
+            </li>
+            <li class="footer-nav-list-item">
+              <a href="#" class="footer-nav-link">Lorem ipsum</a>
+            </li>
+            <li class="footer-nav-list-item">
+              <a href="#" class="footer-nav-link">Lorem ipsum</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-nav-item">
+          <h3 class="footer-nav-title">Careers</h3>
+          <ul class="footer-nav-list">
+            <li class="footer-nav-list-item">
+              <a href="#" class="footer-nav-link">Lorem ipsum</a>
+            </li>
+            <li class="footer-nav-list-item">
+              <a href="#" class="footer-nav-link">Lorem ipsum</a>
+            </li>
+            <li class="footer-nav-list-item">
+              <a href="#" class="footer-nav-link">Lorem ipsum</a>
+            </li>
+            <li class="footer-nav-list-item">
+              <a href="#" class="footer-nav-link">Lorem ipsum</a>
+            </li>
+            <li class="footer-nav-list-item">
+              <a href="#" class="footer-nav-link">Lorem ipsum</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-contacts">
+        <div class="footer-contacts-item">
+          <h3 class="footer-contacts-title">contact</h3>
+          <ul class="footer-contacts-list">
+            <li class="footer-contacts-list-item">
+              <p>POSTADRESS: Försäkring, Box 22068, 25022 Helsingborg</p>
+            </li>
+            <li class="footer-contacts-list-item">
+              <a href="mailto:kunder@lorem.se" class="footer-contacts-link">
+                kunder@lorem.se
               </a>
-            </div>
-          </div> 
+            </li>
+            <li class="footer-contacts-list-item">
+              <a href="tel:0771113113" class="footer-contacts-link">
+                Telefon: 0771-113 113
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-bottom">
+          <div class="footer-bottom-item item-a">
+            <ul class="footer-bottom-list">
+              <li class="footer-bottom-list-item">
+                <a href="#" class="footer-bottom-link">
+                  <img src="/img/SVG/facebook.svg" alt="Facebook" class="footer-bottom-link-img">
+                </a>
+              </li>
+              <li class="footer-bottom-list-item">
+                <a href="#" class="footer-bottom-link">
+                  <img src="/img/SVG/linkedin.svg" alt="LinkedIn" class="footer-bottom-link-img">
+                </a>
+              </li>
+            </ul>
           </div>
+          <div class="footer-bottom-item item-b">
+            <ul class="footer-bottom-list footer-bottom-list-company">
+              <li class="footer-bottom-list-item">
+                <p class="footer-bottom-text">© 2021 Försäkring AB</p>
+              </li>
+              <li class="footer-bottom-list-item">
+                <a href="#" class="footer-bottom-link">Cookies |</a><a href="#" class="footer-bottom-link"> Privacy
+                  Policy</a>
+              </li>
+            </ul>
           </div>
-      </footer> 
+          <div class="footer-bottom-item item-c">
+            <a href="#" class="footer-bottom-logo">
+              <img src="/img/SVG/logo.svg" alt="Eklips Digital logo" class="footer-bottom-logo-img">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
   <script src="/dist/script.js"></script>
 </body>
+
 </html>
